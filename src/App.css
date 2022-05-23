@@ -1,0 +1,91 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.combobox {
+  width: 200px;
+  height: 30px;
+  margin-left: 15px;
+  outline: none;
+}
+
+.comboboxContainer {
+  display: flex;
+  margin-top: 60px;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 200px;
+  margin-bottom: 40px;
+}
+
+.comboboxContainer > p {
+  font-size: 13px;
+}
+
+.totalContainer {
+  display: flex;
+  justify-content: flex-end
+}
+
+.totalContainer > p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.totalContainer > p:nth-child(1) {
+  margin-right: 40px;
+}
+
+.totalContainer > p:nth-child(2) {
+  margin-right: -40px;
+}
+
+th {
+  text-align: left;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+td {
+  font-size: 11px;
+  padding-top: 15px;
+}
+
+/* td:nth-child(2) {
+  text-align: center;
+} */
